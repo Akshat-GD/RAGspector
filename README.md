@@ -53,11 +53,3 @@ All selection policies will use comparable candidate pools and testing budgets. 
 ## Development status
 
 🚧 **Under development.** The initial milestone is an end-to-end demo audit, followed by the adaptive selector, benchmark integrations, policy comparisons, and dashboard.
-
-## Collaboration
-
-Please use issues to discuss bugs, design decisions, and feature requests. Keep changes modular, add tests for new functionality, record experiment configurations and random seeds, and do not commit API keys, private datasets, model weights, or generated environment files.
-
-## License
-
-License to be selected by the project maintainers. Check dataset and model licenses separately before redistribution.
