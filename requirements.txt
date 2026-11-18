@@ -1,0 +1,11 @@
+langchain
+langchain-core
+langchain-community
+langchain-openai
+sentence-transformers
+langchainhub
+chromadb
+openai
+python-dotenv
+datasets
+tqdm

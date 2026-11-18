@@ -1,0 +1,28 @@
+[project]
+name = "ragspector"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Akshat-GD", email = "akshatdandur@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "bs4>=0.0.2",
+    "chromadb>=1.5.9",
+    "langchain>=1.4.8",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.7.4",
+    "langchain-openai>=1.7.3",
+    "langchainhub>=0.1.21",
+    "openai>=3.45.0",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=6.2.0",
+]
+
+[project.scripts]
+ragspector = "ragspector:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
