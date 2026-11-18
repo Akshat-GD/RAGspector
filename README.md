@@ -53,3 +53,17 @@ All selection policies will use comparable candidate pools and testing budgets. 
 ## Development status
 
 🚧 **Under development.** The initial milestone is an end-to-end demo audit, followed by the adaptive selector, benchmark integrations, policy comparisons, and dashboard.
+
+
+## Progress so far (up to interim Presentation 17-11-26)
+
+Components Implemented so far:
+1. In-Built RAG
+2. Custom Benchmark Dataset
+3. Probe Generator
+
+Next up:
+1. Implement test selector
+2. Implement Reliability State Manager (Integrate complete pipeline using LangGraph)
+3. Modularize complete pipeline.
+4. Add GPU processing option.
