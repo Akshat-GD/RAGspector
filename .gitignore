@@ -1,2 +1,8 @@
 # Python cache files
 src/ragspector/__pycache__
+
+# VS code settings
+.vscode
+
+# Environment variables
+.env
