@@ -1,0 +1,40 @@
+[project]
+name = "ragspector"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Akshat-GD", email = "akshatdandur@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.5.9",
+    "datasets>=5.2.0",
+    "langchain>=1.5.2",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.8.5",
+    "langchain-openai>=1.8.5",
+    "langchainhub>=0.1.21",
+    "openai>=3.60.0",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=6.3.0",
+    "torch>=2.15.0",
+    "torchvision>=0.29.2",
+    "tqdm>=4.70.1",
+]
+
+[project.scripts]
+ragspector = "ragspector:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
+
+[[tool.uv.index]]
+name = "pytorch-cu132"
+url = "https://download.pytorch.org/whl/cu132"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu132" }
+torchvision = { index = "pytorch-cu132" }
