@@ -40,7 +40,7 @@ Candidate resources include [RAGTruth](https://github.com/ParticleMedia/RAGTruth
 - **Backend:** Python, FastAPI, Pydantic
 - **RAG and embeddings:** Sentence Transformers, FAISS, Hugging Face Transformers/Datasets
 - **Persistence:** SQLite
-- **Frontend:** React, Vite, TypeScript
+- **Frontend:** Streamlit
 - **Testing:** pytest
 - **Model providers:** configurable local or OpenAI-compatible endpoints, with a deterministic mock mode for development and tests
 
