@@ -1,2 +1,5 @@
 # Virtual Environment files
 .venv/
+
+# Test files
+tests/
