@@ -52,4 +52,31 @@ All selection policies will use comparable candidate pools and testing budgets. 
 
 ## Development status
 
-🚧 **Under development.** The initial milestone is an end-to-end demo audit, followed by the adaptive selector, benchmark integrations, policy comparisons, and dashboard.
+This branch builds up on the IB_RAG_IMP_AGD branch and aims to add gpu compute capabilities while modularizing the complete pipeline.
+
+**Components completed so far:**
+
+- In-Built RAG Pipeline
+- Custom Benchmark Dataset (Probe Library)
+- Probe Generator
+- Priliminary RAG Evaluator
+
+**Components to be built:**
+
+CORE COMPONENTS
+
+- Probe Executor
+- Reliability Evaluator
+- Reliability State Manager
+- Adaptive Test Selector
+- Budget Controller
+- Report Generator
+- Orchestrator
+
+OTHERS
+
+- Frontend design and integration
+
+**Further Improvements Possible:**
+
+1. Use a different LLM for Probe generator
