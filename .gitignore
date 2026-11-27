@@ -3,3 +3,6 @@
 
 # Test files
 tests/
+
+# Enviroment Variables
+.env
