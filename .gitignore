@@ -6,3 +6,6 @@ tests/
 
 # Enviroment Variables
 .env
+
+# VS Code environment setting
+.vscode/
